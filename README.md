@@ -8,7 +8,7 @@ MVVM architecture pattern has been used.
 
 User can  see today's weather, navigate to next 5 days weather forecast and the settings screen using bottom navigation bar.
 In the settings screen, users can enter the name of the city for which they want to see weather.
-Users can choose their preferred unit of measure, either Celsius or Farenheit for temprature.  
+Users can choose their preferred unit of measure, either Celsius or Fahrenheit for temperature.  
 
  
 ## Features
