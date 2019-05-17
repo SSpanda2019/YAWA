@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@id/todaysWeatherFragment">
+
+    <fragment android:id="@+id/todaysWeatherFragment"
+              android:name="com.sangeeta.yawa.ui.weather.today.TodaysWeatherFragment"
+              android:label="Today" tools:layout="@layout/todays_weather_fragment"/>
+    <fragment android:id="@+id/futureListWeatherFragment"
+              android:name="com.sangeeta.yawa.ui.weather.future.FivedaysWeatherFragment"
+              android:label="Next 5 days" tools:layout="@layout/detail_weather_fragment"/>
+    <fragment android:id="@+id/settingsFragment" android:name="com.sangeeta.yawa.ui.settings.SettingsFragment"
+              android:label="Settings" tools:layout="@layout/fragment_settings"/>
+
+</navigation>
